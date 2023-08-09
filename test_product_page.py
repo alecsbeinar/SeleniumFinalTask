@@ -83,7 +83,6 @@ def test_guest_cant_see_product_in_basket_opened_from_product_page(browser):
     basket_page.should_be_basket_page()
 
 
-# pytest -v -s --tb=line --language=en -m "add_to_basket" test_product_page.py
 @pytest.mark.add_to_basket
 class TestUserAddToBasketFromProductPage:
     product_link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
